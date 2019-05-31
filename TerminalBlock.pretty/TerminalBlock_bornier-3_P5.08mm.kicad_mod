@@ -1,4 +1,4 @@
-(module TerminalBlock_bornier-3_P5.08mm (layer F.Cu) (tedit 5CEFFE52)
+(module TerminalBlock_bornier-3_P5.08mm (layer F.Cu) (tedit 59FF03B9)
   (descr "simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3")
   (tags "terminal block bornier3")
   (fp_text reference REF** (at 5.05 -4.65) (layer F.SilkS)
@@ -28,13 +28,8 @@
   (pad 2 thru_hole circle (at 5.08 0) (size 3 3) (drill 1.52) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 10.16 0) (size 3 3) (drill 1.52) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/TerminalBlock.3dshapes/TerminalBlock_bornier-3_P5.08mm.wrl
-    (offset (xyz 5.08 0 0))
+    (at (xyz 0.2 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 55 10 10))
-  )
-  (model "C:/Users/Cortona/Desktop/LIBRERIE KICAD Cortona/3D/morsetto 3 p5.stp"
-    (offset (xyz -3 -3.5 0))
-    (scale (xyz 0.9 1 1.5))
-    (rotate (xyz 90 180 -90))
+    (rotate (xyz 0 0 0))
   )
 )
